@@ -1,3 +1,5 @@
+package MathsForCoding;
+
 import java.util.Scanner;
 
 public class Factorial{

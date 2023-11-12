@@ -1,3 +1,5 @@
+package MathsForCoding;
+
 public class GreaterDivier {
     public static void main(String[] args) {
         int smallNumber = Integer.MAX_VALUE;
