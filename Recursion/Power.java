@@ -12,8 +12,8 @@ public class Power {
             return x;
         }
 
-        int ans = x * Pow(x,n-1);
-
-        return ans;
+        int ans = Pow(x,n-1);
+        int xn = x * ans;
+        return xn;
     }
 }
