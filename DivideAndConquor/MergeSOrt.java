@@ -1,6 +1,6 @@
 public class MergeSOrt {
     public static void main(String[] args) {
-        int arr[] = {6, 3, 5, 9, 2};
+        int arr[] = {3,2,4,1,3 };
         int start = 0;
         int end = arr.length - 1;
 
@@ -27,7 +27,7 @@ public class MergeSOrt {
     public static void Conquer(int arr[], int start, int mid, int end) {
         int temp[] = new int[end - start + 1];
         int i = start;
-        int j = mid + 1;
+        int j = mid + 1; 
         int k = 0;
 
         while (i <= mid && j <= end) {
